@@ -1,0 +1,141 @@
+.main_circle {
+    position: fixed;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+}
+
+
+#circle {
+  position: fixed;
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  box-sizing: border-box;
+  border-width: 20px;
+  border-style: solid;
+  border-color: yellow pink green gray;
+  top: 25%;
+  left: 15%;
+  margin-top: -200px;
+  margin-left: -200px;
+  transition: 1s;
+}
+
+#content_container {
+  position: fixed;
+  top: 5%;
+  left: 35%;
+  height: 90%;
+  width: 60%;
+  box-sizing: border-box;
+  border-width: 20px;
+  border-style: solid;
+  border-color: yellow pink green gray;
+  transition: 1s;
+}
+
+.fleft {
+  float: left;
+  box-sizing: content-box;
+  width: 50%;
+  height: 300px;
+}
+.fright {
+  float: right;
+  box-sizing: content-box;
+  width: 50%;
+  height: 300px;
+}
+
+.quadrant{
+  text-align: center;
+  position: relative;
+  vertical-align: bottom;
+  text-overflow: ellipsis;
+  width: 50%;
+  height: 50%;
+}
+
+.left {
+  float: right;
+  border-right: 2px solid gray;
+}
+.right {
+  float: left;
+  border-left: 2px solid gray;
+}
+
+.top {
+  margin-top: 20px;
+  border-bottom : 2px solid gray;
+}
+
+.bottom {
+  margin-bottom: 20px;
+  border-top : 2px solid gray;
+}
+
+.quad_content{
+  position: absolute;
+  bottom: 80px;
+  text-align: center;
+}
+
+body {
+ font-family: 'Cardo', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Oswald', sans-serif;
+ text-transform: uppercase;
+}
+
+h1 {
+  font-size: 20px;
+  color: gray;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+}
+
+.smallcircle{
+  position: fixed;
+  height: 100px;
+  width: 100px;
+  border-radius: 25%;
+  border-width: 10px;
+  transition: 1s;
+}
+
+#small_circle_1{
+  border-color: pink;
+}
+
+#small_circle_2{
+  border-color: yellow;
+}
+
+#small_circle_3{
+  border-color: green;
+}
+
+.image {
+  border-radius: 25%;
+  border-color: green;
+  height: 100%;
+  width: 100%;
+  border-width: 10px;
+}
