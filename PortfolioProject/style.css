@@ -106,9 +106,15 @@ h2 {
   font-size: 40px;
 }
 
+p {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Cardo', serif;
+}
 li {
-  font-family: 'Oswald', sans-serif;
-  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Cardo', serif;
 }
 
 .smallcircle{
@@ -132,10 +138,25 @@ li {
   border-color: green;
 }
 
+h1:hover{
+  color: black;
+  font-size: 25px;
+  cursor: pointer;
+}
+
 .image {
   border-radius: 25%;
   border-color: green;
   height: 100%;
   width: 100%;
   border-width: 10px;
+}
+.personal_images {
+  border-radius: 25%;
+  border-color: green;
+  height: 150px;
+  width: 150px;
+  border-width: 10px;
+  max-width: 100%;
+  max-height: 100%;
 }
